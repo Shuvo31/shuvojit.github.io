@@ -5,14 +5,14 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "The Complete 2021 Flutter Bootcamp with Dart",
+    title: "HTML5 & CSS3 Course: The Complete Guide (Step by Step)",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/certificate/UC-70f46304-d3ae-412b-8440-e63b12fe0584/",
+    moocLink: "https://www.udemy.com/certificate/UC-91f734dd-e8f0-4f35-b1d5-00aa3ca80c4b/",
   },
   {
-    title: "C for Everyone: Programming Fundamentals",
+    title: "Python for Data Science, AI & Development",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://coursera.org/share/529ae2392efba1e90417f6b376b78cc3",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/CTPMHFQSLG3Y",
   },
   
 ];
