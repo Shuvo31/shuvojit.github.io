@@ -6,11 +6,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Flutter App Development Intern",
-    cardImage: "assets/images/experience-page/applex.jpeg",
-    place: "applex.in",
-    time: "(July, 2021 - September 2021)",
-    desp: "<li>Improved the UI design of a working app which increased the number of users by 70%</li> <li>Increased app functionality and efficiency by integrating APIs and improving the overall workflow</li>",
+    title: "Python Developer Intern",
+    cardImage: "assets/images/experience-page/iemlabs.jpg",
+    place: "iemlabs.com",
+    time: "(Aug, 2020 - Apr,2021)",
+    desp: "<li>Improved the user interface.</li> <li>Increased functionality,efficiency and improving the overall workflow</li>",
+  },
+  {
+    title: "Junior Developer",
+    cardImage: "assets/images/experience-page/zcs.png",
+    place: "http://zcs.co.in/",
+    time: "(Sep,2021 - Feb,2022)",
+    desp: "<li>Worked as a Junior Full Stack Developer.</li> <li>Increased functionality,efficiency,UI and improving the overall workflow</li>",
   },
 ];
 
@@ -47,41 +54,41 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 // Volunteership Cards
 
-const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-  {
-    title: "Google Developer Students Club - IEM",
-    cardImage: "assets/images/experience-page/gdsc-iem.png",
-    description:
-      "Tech Team Lead of app development team of the largest technical club in our campus since Aug 2021",
-  },
-  {
-    title: "Society for Data Science - IEM Student Chapter",
-    cardImage: "assets/images/experience-page/s4ds-iem.jpeg",
-    description:
-      "Vice President of the largest club on Data Science in our campus since Aug 2020",
-  },
+// const volunteership = document.querySelector(".volunteership");
+// const volunteershipcards = [
+//   {
+//     title: "Google Developer Students Club - IEM",
+//     cardImage: "assets/images/experience-page/gdsc-iem.png",
+//     description:
+//       "Tech Team Lead of app development team of the largest technical club in our campus since Aug 2021",
+//   },
+//   {
+//     title: "Society for Data Science - IEM Student Chapter",
+//     cardImage: "assets/images/experience-page/s4ds-iem.jpeg",
+//     description:
+//       "Vice President of the largest club on Data Science in our campus since Aug 2020",
+//   },
   
-];
+// ];
 
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
+// const showCards = () => {
+//   let output = "";
+//   volunteershipcards.forEach(
+//     ({ title, cardImage, description }) =>
+//       (output += `        
+//       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
+//       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+//       <div class="content">
+//           <h2 class="volunteerTitle">${title}</h2><br>
+//           <p class="copy">${description}</p></div>
       
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
+//       </div>
+//       `)
+//   );
+//   volunteership.innerHTML = output;
+// };
+// document.addEventListener("DOMContentLoaded", showCards);
 
 
 // Hackathon Section
