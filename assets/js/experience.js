@@ -15,9 +15,16 @@ const exp = [
   {
     title: "Junior Developer",
     cardImage: "assets/images/experience-page/zcs.png",
-    place: "http://zcs.co.in/",
+    place: "zcs.co.in",
     time: "(Sep,2021 - Feb,2022)",
     desp: "<li>Worked as a Junior Full Stack Developer.</li> <li>Increased functionality,efficiency,UI and improving the overall workflow</li>",
+  },
+  {
+    title: "Project Engineer",
+    cardImage: "assets/images/experience-page/Wipro.png",
+    place: "wipro.com",
+    time: "(March,2022 - Current)",
+    desp: "<li>Worked as a Project Engineer.</li>",
   },
 ];
 
