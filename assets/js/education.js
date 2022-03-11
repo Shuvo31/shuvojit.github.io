@@ -10,11 +10,20 @@ const moocscards = [
     moocLink: "https://www.udemy.com/certificate/UC-91f734dd-e8f0-4f35-b1d5-00aa3ca80c4b/",
   },
   {
+    title: "Programming in Java",
+    cardImage: "assets/images/education-page/nptel.jpg",
+    moocLink: "https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc20-cs58",
+  },
+  {
     title: "Python for Data Science, AI & Development",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink: "https://www.coursera.org/account/accomplishments/verify/CTPMHFQSLG3Y",
   },
-  
+  {
+    title: "Problem Solving through Programming in C",
+    cardImage: "assets/images/education-page/nptel.jpg",
+    moocLink: "https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc21-cs01",
+  },
 ];
 
 const experience = [
