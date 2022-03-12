@@ -8,23 +8,23 @@ const exp = [
   {
     title: "Python Developer Intern",
     cardImage: "assets/images/experience-page/iemlabs.jpg",
-    place: "iemlabs.com",
+    place: "IEMLabs",
     time: "(Aug, 2020 - Apr,2021)",
     desp: "<li>Improved the user interface.</li> <li>Increased functionality,efficiency and improving the overall workflow</li>",
   },
   {
     title: "Junior Developer",
     cardImage: "assets/images/experience-page/zcs.png",
-    place: "zcs.co.in",
+    place: "Zenais Consultancy Services Pvt Ltd",
     time: "(Sep,2021 - Feb,2022)",
     desp: "<li>Worked as a Junior Full Stack Developer.</li> <li>Increased functionality,efficiency,UI and improving the overall workflow</li>",
   },
   {
     title: "Project Engineer",
     cardImage: "assets/images/experience-page/Wipro.png",
-    place: "wipro.com",
+    place: " WIPRO LIMITED",
     time: "(March,2022 - Current)",
-    desp: "<li>Worked as a Project Engineer.</li>",
+    desp: "<li>Working as a Intern.</li><li>Current Domain is JAVA J2EE </li>"
   },
 ];
 
