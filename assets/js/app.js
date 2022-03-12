@@ -131,7 +131,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-              <form action="https://formspree.io/f/mjvlobog" class="contact_form grid" id="contact-form" method="POST">
+              <form action="https://formspree.io/f/mjvlobog" id="contact-form" method="POST">
               <label>
               <input type="text" name="name" placeholder="Your Name" required/>
               </label>
