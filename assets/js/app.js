@@ -131,13 +131,31 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
-                  <form action="https://formspree.io/f/mjvlobog" method="POST" accept-charset="UTF-8" >
-                  <input type="text" name="field1" placeholder="Your Name" required/>
-                  <input type="email" name="field2" placeholder="Email Address"  required/>
-                  <textarea name="field3" placeholder="Type your Message" required></textarea>
-                  <input type="submit" value="Send" />
-                </form>
+              <form action="https://formspree.io/f/mjvlobog" class="contact_form grid" id="contact-form" method="POST">
+              <div id="alert" class="alert_style"></div>
+              <div class="contact_inputs grid">
+                <div class="contact_content">
+                  <label class="contact_label">Name</label>
+                  <input type="text" name="name" class="contact_input" id="name" required>
+                </div>
+                <div class="contact_content">
+                  <label for="email" class="contact_label">Email</label>
+                  <input type="email" name="email" class="contact_input" id="email" required>
+                </div>
+              </div>
+              <div class="contact_content">
+                <label for="message" class="contact_label">Message</label>
+                <textarea name="message" id="" cols="0" rows="4" class="contact_input message" id="message"
+                  required></textarea>
+              </div>
+    
+              <div>
+                <button type="submit" class="button button-flex">
+                  Send Message
+                  <i class="uil uil-message button_icon"></i>
+                </button>
+              </div>
+            </form>
              </div>
           </div>
         </div>
