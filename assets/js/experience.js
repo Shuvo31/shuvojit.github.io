@@ -10,14 +10,14 @@ const exp = [
     cardImage: "assets/images/experience-page/iemlabs.jpg",
     place: "IEMLabs",
     time: "(Aug, 2020 - Apr,2021)",
-    desp: "<li>Improved the user interface.</li> <li>Increased functionality,efficiency and improving the overall workflow</li>",
+    desp: "<li>Improved the user interface</li> <li>Increased functionality,efficiency and improving the overall workflow</li>",
   },
   {
     title: "Junior Developer",
     cardImage: "assets/images/experience-page/zcs.png",
     place: "Zenais Consultancy Services Pvt Ltd",
     time: "(Sep,2021 - Feb,2022)",
-    desp: "<li>Worked as a Junior Full Stack Developer.</li> <li>Increased functionality,efficiency,UI and improving the overall workflow</li>",
+    desp: "<li>Worked as a Junior Full Stack Developer</li> <li>Increased functionality,efficiency,UI and improving the overall workflow</li>",
   },
   {
     title: "Project Engineer",
