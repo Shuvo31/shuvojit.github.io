@@ -22,7 +22,7 @@ const exp = [
   {
     title: "Project Engineer",
     cardImage: "assets/images/experience-page/Wipro.png",
-    place: " WIPRO LIMITED",
+    place: " Wipro Limited",
     time: "(March,2022 - Current)",
     desp: "<li>Working as a Intern.</li><li>Current Domain is JAVA J2EE </li>"
   },
@@ -42,7 +42,7 @@ const showCards2 = () => {
               <h3>${title}</h3>
             </div>
             <p class="meta">
-              <span class="pre-heading">${place}</span><br>
+              <span class="string">${place}</span><br>
               <span class="author">${time}</span>
             </p>
             <ol>
